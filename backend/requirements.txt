@@ -1,0 +1,19 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# Browser automation
+browser-use>=0.1.40
+playwright>=1.41.0
+langchain-openai>=0.1.0
+
+# Async support
+sse-starlette>=1.6.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+
+# For notebook export
+nbformat>=5.9.0
