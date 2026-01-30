@@ -25,7 +25,6 @@ frontend/.env
 # Testing
 /frontend/coverage/
 
-# Environment
 /frontend/.env.local
 /frontend/.env.development.local
 /frontend/.env.test.local
