@@ -1,11 +1,176 @@
-/tmp
-/out-tsc
+# Browser Use Task Runner - Git Ignore
 
-/node_modules
+# ======================
+# Node.js / Frontend
+# ======================
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/.pnp
-.pnp.js
+.pnp/
 
-.vscode/*
+.idea/browser-use-task-runner.iml
+.idea/copilot.data.migration.agent.xml
+.idea/modules.xml
+.idea/vcs.xml
+backend/.env
+frontend/.env
+# Build outputs
+/frontend/build/
+/frontend/dist/
+/frontend/.cache/
+/frontend/.npm-cache/
+/frontend/node_modules/
+/frontend/node_modules
+# Testing
+/frontend/coverage/
+
+# Environment
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# ======================
+# Python / Backend
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.idea/browser-use-task-runner.iml
+.idea/copilot.data.migration.agent.xml
+.idea/modules.xml
+.idea/vcs.xml
+backend/.env
+frontend/.env
+backend/__pycache__/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE files
+.idea/
+
+# Python cache
+__pycache__/
+
+# Environment files
+*.env
+
+# npm logs
+npm-debug.log
+*.log
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ======================
+# IDE / Editor
+# ======================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ======================
+# OS Generated
+# ======================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ======================
+# Environment & Secrets
+# ======================
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# ======================
+# Logs & Temp Files
+# ======================
+logs/
+*.log
+tmp/
+temp/
+
+# ======================
+# Browser Automation
+# ======================
+/backend/output/
+screenshots/
+recordings/
+traces/
+
+# Playwright
+/playwright-report/
+/playwright/.cache/
+
+# ======================
+# Misc
+# ======================
+*.bak
+*.tmp
+*.temp
