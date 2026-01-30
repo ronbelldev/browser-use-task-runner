@@ -83,7 +83,6 @@ pip-delete-this-directory.txt
 # Python cache
 __pycache__/
 
-# Environment files
 *.env
 
 # npm logs
